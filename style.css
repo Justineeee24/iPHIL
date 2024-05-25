@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/441607179_8738851116142753_6332263226302044716_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE4WrWCkwTkIcD5Ok1n2onGTprV-bRogpxOmtX5tGiCnIkHpxSnmeKbftSBiv2YLAkH5hY1tGtlM0RW0gGaroLP&_nc_ohc=i-yPsYF3spgQ7kNvgH2ACH5&_nc_ht=scontent.fmnl17-1.fna&oh=00_AYD9psnq6nzOUPokh3vfqfKw_xkBO8Y0r2doDOTaWmNSPw&oe=66552148);
+    background-position: center;
+	background-size:100%;
+    background-size: cover;
+    height: 100vh;
+	overflow-x:hidden;
+}
+
+.main1{
+    background: url(https://ecophiles.com/wp-content/uploads/2017/06/12332944893_89efa4b9eb_o-759x500.jpg);
+    background-position: center;
+	background-size:100%;
+    background-size: cover;
+    height: 100vh;
+	overflow-x:hidden;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-right:1000px;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    width:200px;
+	padding-left:50px;
+	
+}
+
+.menu{
+	
+    width: 400px;
+    float: right;
+    height: 70px;
+	
+	text-align:right;
+	
+}
+main.main1{
+	background-color:black;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: right;
+    text-align:right;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+	text-align:right;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+	
+
+}
+hr{
+	width:1000px;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+	padding-top:10px;
+    width: 330px;
+	border-top-right-radius:5px;
+	padding-right:10px;
+	vertical-align:middle;
+	align-items:center;
+
+	
+}
+
+.srch{
+    font-family: Times New Roman;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+	background-position:center;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+	position:center;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+	margin-top:300px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+	text-shadow: -2px -1px 4px #000000;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.text h1{
+	font-size:180px;
+	font-family:"Montserrat",sans-serif;
+	font-weight:1000;
+	letter-spacing:20px;
+
+	text-align:center;
+	transform: translate(-50% -50%);
+	background-size:cover;
+	color:transparent;
+	-webkit-background-clip:text;
+	text-transform:uppercase;
+	opacity:0.6 ;
+	transition: opacity 1s ease 0s;
+}
+.text h1:hover{
+	opacity:1;
+}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+.LuzonImgs{
+	display:flex;
+	justify-content:space-between;
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:80px;
+	
+}
+.LuzonImgs img{
+	border-radius: 10px;
+	height:600px;
+	width: 400px;
+	object-fit:cover;
+	opacity:0.6 ;
+	transition: opacity 1s ease 0s;
+}
+.LuzonImgs img:hover{
+	transform: scale(1.1,1.1);
+	opacity:1;
+}
+.LuzonImgs > img:not(:hover){
+	filter: blur(10px);
+	transform: scale(0.1,0.1);
+	
+}
+
+.spot{
+    position: relative;
+    top: 150px;
+    right: 500px;
+    font-size: 25px;
+}
+.mainimg{
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+}
+.img-text{
+	position:absolute;
+	top:50%;
+	left:20%;
+	color:white;
+	font-size:40px;
+}
+
+.about{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    position: relative;
+    left: 450px;
+    top: 250px;
+}
+
+.aboutus{
+    opacity: 1;
+    font-size: 60px;
+    position: relative;
+    top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.desc{
+    background-color: #E2E2E2;
+    height: 450px;
+    width: 500px;
+    position: relative;
+    left: 340px;
+    display: inline-block;
+}
+
+.desc1{
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.socials{
+    position: relative;
+    top: 100px;
+    left: 184px;
+    margin: 10px;
+}
+
+.fb:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ig:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.twt:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
